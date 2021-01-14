@@ -42,6 +42,9 @@ Generate an app encryption key
     php artisan key:generate
 ```
 Create an empty database for the app (in .env.example you can see the name which was used during development -> 'todo') 
+```sh
+    CREATE DATABASE todo; 
+```
 
 Lastly migrate the database
 ```sh
